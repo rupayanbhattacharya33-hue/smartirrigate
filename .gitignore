@@ -1,0 +1,7 @@
+venv/
+__pycache__/
+*.pyc
+backend/irrigation.db
+frontend/node_modules/
+frontend/dist/
+.env
