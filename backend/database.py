@@ -1,7 +1,8 @@
 import sqlite3
 from datetime import datetime
 
-DB_PATH = "irrigation.db"
+import os
+DB_PATH = os.path.join(os.path.dirname(__file__), "irrigation.db")
 
 def init_db():
     conn = sqlite3.connect(DB_PATH)
